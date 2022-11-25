@@ -69,6 +69,7 @@ class HomeScreen extends StatelessWidget {
                               Container(
                                 padding: EdgeInsets.symmetric(horizontal: 140, vertical: 20),
                                 decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(8),
                                   shape: BoxShape.rectangle,
                                   color: Colors.grey.shade50.withOpacity(0.5)
 
@@ -144,7 +145,7 @@ class HomeScreen extends StatelessWidget {
                     children: [
                       Text('Meaties Special Burger', style: Styles.headLine3,),
                       Text("Now"),
-                      Text("Burger", style: Styles.headLine3,),
+                      Text("₦2000", style: Styles.headLine3,),
                       Text("(10% off)"),
                       Gap(10),
                       Container(
